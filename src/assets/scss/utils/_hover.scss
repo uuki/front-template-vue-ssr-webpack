@@ -1,0 +1,20 @@
+.u-hover {
+  transition: opacity .3s ease-out;
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+/**
+ * mobile
+ */
+@include mobile {
+  .u-hover {
+    transition: none;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

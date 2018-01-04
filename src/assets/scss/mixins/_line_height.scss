@@ -1,0 +1,8 @@
+//
+// line-height を 単位なしに変換
+// @param {int} $px 整数
+// @param {int} $fz 整数
+//
+@mixin line-height($px, $fz) {
+  line-height: ($px / $fz);
+}

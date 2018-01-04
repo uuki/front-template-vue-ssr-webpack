@@ -1,0 +1,30 @@
+/**
+ * Google fonts - Noto Sans JP Light
+ */
+// @font-face {
+//    font-family: 'Noto Sans JP Light';
+//    font-style: normal;
+//    font-weight: 200;
+//    src: local("Noto Sans CJK JP"),
+//         url('//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff2') format('woff2'),
+//         url('//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff') format('woff'),
+//         url('//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.otf') format('opentype');
+// }
+
+/**
+ * Google fonts - Noto Sans JP Bold
+ */
+// @font-face {
+//    font-family: 'Noto Sans JP Bold';
+//    font-style: normal;
+//    font-weight: 600;
+//    src: local("Noto Sans CJK JP"),
+//         url('//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2') format('woff2'),
+//         url('//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff') format('woff'),
+//         url('//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf') format('opentype');
+// }
+
+// $font_noto_thin: 'Noto Sans JP Thin', sans-serif;
+// $font_noto_light: 'Noto Sans JP Light', sans-serif;
+// $font_noto_bold: 'Noto Sans JP Bold', sans-serif;
+$font_default: Helvetica, YuGothic, 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, sans-serif;

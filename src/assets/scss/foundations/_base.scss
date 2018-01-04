@@ -1,0 +1,101 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: auto;
+  word-wrap: break-word;
+  -webkit-text-size-adjust: 100%;
+  font-family: $font_default;
+  font-size: 1.5rem;
+  // color: $c_black;
+  // background: rgba(#c5c5ca, .1);
+
+  // @media screen and (-ms-high-contrast: active),
+  //                   (-ms-high-contrast: none) {
+  //   font-family: 'sans-serif'; //support IE10 & 11
+  // }
+}
+
+main {
+  display: block; // IE11 Support
+}
+
+iframe {
+  width: 100%;
+}
+
+img {
+  font-size: 0;
+}
+
+a {
+  outline: none;
+
+  &:link,
+  &:visited,
+  &:active {
+    text-decoration: none;
+    outline: none;
+  }
+
+  &:hover {
+    outline: none;
+  }
+}
+
+strong {
+}
+
+input, select, textarea {
+  border: none;
+  outline: none;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+
+}
+
+input {
+  ::-webkit-contacts-auto-fill-button {
+    visibility: hidden;
+    display: none !important;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+  }
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+textarea {
+  max-width: 100%;
+}
+
+::selection {
+  // background: ;
+}
+::-moz-selection {
+  // background: ;
+}
+
+/**
+ * mobile
+ */
+@include mobile {
+  body {
+    min-width: 320px;
+  }
+}
