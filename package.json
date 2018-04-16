@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/y-eioki/front-template-vue-ssr-webpack.git"
+    "url": "git+https://github.com/uuki/front-template-vue-ssr-webpack.git"
   },
   "author": "Yuichi Aoki",
   "license": "MIT",
